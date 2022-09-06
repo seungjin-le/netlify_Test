@@ -821,6 +821,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prettier@npm:^2":
+  version: 2.7.0
+  resolution: "@types/prettier@npm:2.7.0"
+  checksum: bf5d0c7c1270909b39399539ac106d20ddaa85fe92eb1d59922dc99159604b4f8d5e41b0045fb29c8011585cf5bca2350b7441ef3d9816c08bd0e10ebd4b31d4
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
@@ -7278,6 +7285,7 @@ next@latest:
     "@mapbox/rehype-prism": ^0.8.0
     "@netlify/plugin-nextjs": 4.20
     "@tailwindcss/typography": ^0.5.0
+    "@types/prettier": ^2
     autoprefixer: ^10.4.0
     classnames: ^2.3.1
     cypress: ^10.1.0
@@ -7290,6 +7298,7 @@ next@latest:
     next-mdx-remote: ^4.1.0
     next-remote-watch: 1.0.0
     postcss: ^8.4.4
+    prettier: ^2.7.1
     prismjs: ^1.25.0
     react: ^18.0.0
     react-dom: ^18.0.0
@@ -8202,6 +8211,15 @@ next@latest:
   version: 2.0.0
   resolution: "prepend-http@npm:2.0.0"
   checksum: 7694a9525405447662c1ffd352fcb41b6410c705b739b6f4e3a3e21cf5fdede8377890088e8934436b8b17ba55365a615f153960f30877bf0d0392f9e93503ea
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
 
